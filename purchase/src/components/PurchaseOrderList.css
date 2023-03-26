@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    background-color: #0077b6;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover td {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #023e8a;
+  }
